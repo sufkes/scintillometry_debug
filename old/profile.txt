@@ -1,0 +1,45 @@
+note that the total size of the matrix is 2*n x 2*m - therefore the actual subsection of the dynamic spectrum is smaller (nxm) - eg 128x8 is 64x4 for dynamic spectrm
+this profile does not contain everything but the main functions that are used to perform the decomposition
+
+##### rank per node = 8 #####
+
+size (run #)	total	house_vec	broadcast	seq_update	aggregate	block_update (dot product) (calling lin_alg package) (send/recieve)
+128x8		35	0.5		(3.7)		0.3		0.1		0.2 (0.01) (0.1) (0.01/0.01)
+128x8 (2)	33	0.5 		(3.7)		0.3		0.1		0.2 (0.01) (0.1) (0.01/0.01)
+256x8		34	1.0 		(7.5)		0.6		0.2		0.4 (0.02) (0.1) (0.02/0.02)
+256x8 (2)	34	1.0 		(7.5)		0.6		0.2		0.2 (0.02) (n/a) (0.01/0.08)
+512x8		50	1.9 		(15)		1.2		0.5		0.7 (0.03) (0.3) (0.03/0.04)
+512x8 (2)	50	1.9 		(15)		1.2		0.5		0.5 (0.03) (n/a) (0.01/0.19)
+1024x8		82	3.8 		(30)		2.3		0.9		1.3 (0.07) (0.5) (0.06/0.06)
+1024x8 (2)	84	3.7 		(30)		2.3		0.9		1.5 (0.06) (0.7) (0.05/0.1)
+
+8x128		29	0.8 		(3.2)		0.4		0.1		0.1 (0.01) (0.0) (0.0/0.01)
+8x128 (2)	28	0.8 		(3.2)		0.4		0.1		0.1 (0.01) (0.0) (0.0/0.01)
+8x256		37	1.6 		(8.7)		1.6		0.2		0.3 (0.04) (0.2) (0.01/0.06)
+8x256 (2)	38	1.6 		(8.7)		1.2		0.2		0.3 (0.04) (0.2) (0.02/0.06)
+8x512		71	3.2 		(32)		4.7		1.0		1.4 (0.4) (0.7) (0.01/0.3)
+8x512 (2)	71	3.3 		(32)		4.7		1.0		1.4 (0.4) (0.7) (0.02/0.2)
+8x1024		273	7.5 		(189)		28		4.7		7.8 (3.4) (3.3) (0.02/0.8)
+8x1024 (2)	273	7.5 		(189)		28		4.5		7.9 (3.4) (3.2) (0.02/0.9)
+
+##### rank per node = 2 #####
+
+size (run #)	total	house_vec	broadcast	seq_update	aggregate	block_update (dot product) (calling lin_alg package) (send/recieve)
+4x1024		103.4	5.4		59.3		26.1		0.9		1.4 (0.2) (0.7) (0.02/0.3)
+4x2048		669.8	13.0		423.7		202.0		4.9		7.7 (1.6) (3.7) (0.07/1.7)
+8x1024		229.7	7.0		178.1		27.4		1.8		3.2 (1) (1.5) (0.06/0.4)
+8x2048		1551.7	15.8		1273.1		203.8		9.9		22.5 (6.1) (10.4) (0.5/4.2)
+
+##### profiling just a normal bcasting #####
+effectively "processes" x "matrix length" is equivalent to the "size" above 
+
+processes	matrix length	bcast time
+4		512		0.203
+4		1024		n/a (I think this was just too fast for cprofile to sample it properly)
+4		2048		3.210
+8		512		0.302
+8		1024		1.610
+8		2048		6.418
+16		512		0.709
+16		1024		3.219
+16		2048		12.832

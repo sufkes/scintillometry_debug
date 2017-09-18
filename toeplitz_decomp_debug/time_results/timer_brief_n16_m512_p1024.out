@@ -1,0 +1,993 @@
+fact(): pre-kloop: 2.9098475625
+Loop 1
+Loop 1 __set_curr_gen (1): 0.000231852500008
+Loop 1 sb1 0 pre-jloop1: 0.05035173875
+Loop 1 sb1 0 j 0 __house_vec: 0.0030691125
+Loop 1 sb1 0 j 0 hv-to-su: 0.000103652500002
+Loop 1 sb1 0 j 0 __seq_update: 0.05294086375
+Loop 1 sb1 0 j 1 __house_vec: 0.00276305375
+Loop 1 sb1 0 j 1 hv-to-su: 0.000113562500005
+Loop 1 sb1 0 j 1 __seq_update: 0.05279953375
+Loop 1 sb1 0 j 2 __house_vec: 0.0027674075
+Loop 1 sb1 0 j 2 hv-to-su: 0.000112521250003
+Loop 1 sb1 0 j 2 __seq_update: 0.0528310025
+Loop 1 sb1 0 j 3 __house_vec: 0.0027689275
+Loop 1 sb1 0 j 3 hv-to-su: 0.000122103125008
+Loop 1 sb1 0 j 3 __seq_update: 0.0529505525
+Loop 1 sb1 0 jloop1: 31.0890019613
+Loop 1 sb1 0 jloop1-to-agg1: 4.56500000041e-05
+Loop 1 sb1 0 __aggregate (1): 0.9548963925
+Loop 1 sb1 0 __set_curr_gen (2): 0.000254026250005
+Loop 1 sb1 0 __new_block_update: 1.32059393875
+Loop 1 sb1 0 post-nbu: 0.0201427675
+Loop 1 pre-Bcast (1): 0.01605896375
+Loop 1 Bcast (1): 0.0262014675
+Loop 1 post-Bcast (1): 4.97875000036e-05
+Loop 1 sb1 0 pre-agg (2): 0.01698864875
+Loop 1 sb1 0 __aggregate (2): 1.16862686
+Loop 1 sb1 0 __set_curr_gen (3): 0.000266346250001
+Loop 1 sb1 0 __block_update: 5.09940384375
+Loop 1 __block_reduc: 39.7712698338
+Loop 1 save end: 0.000179022500021
+Loop 1 save checkpoint: 0.000369072500007
+Loop 1 time = 39.7748864687
+Loop 2
+Loop 2 __set_curr_gen (1): 0.000161116250013
+Loop 2 sb1 0 pre-jloop1: 0.04966070125
+Loop 2 sb1 0 j 0 __house_vec: 0.00291834000001
+Loop 2 sb1 0 j 0 hv-to-su: 0.000104999999991
+Loop 2 sb1 0 j 0 __seq_update: 0.05295925375
+Loop 2 sb1 0 j 1 __house_vec: 0.00275801875
+Loop 2 sb1 0 j 1 hv-to-su: 0.000112951250003
+Loop 2 sb1 0 j 1 __seq_update: 0.05289058
+Loop 2 sb1 0 j 2 __house_vec: 0.0027671375
+Loop 2 sb1 0 j 2 hv-to-su: 0.000116590000005
+Loop 2 sb1 0 j 2 __seq_update: 0.05259893875
+Loop 2 sb1 0 j 3 __house_vec: 0.0027576075
+Loop 2 sb1 0 j 3 hv-to-su: 0.000110756249995
+Loop 2 sb1 0 j 3 __seq_update: 0.05259170125
+Loop 2 sb1 0 jloop1: 31.1499718225
+Loop 2 sb1 0 jloop1-to-agg1: 4.83574999919e-05
+Loop 2 sb1 0 __aggregate (1): 0.95604235375
+Loop 2 sb1 0 __set_curr_gen (2): 0.000228062500014
+Loop 2 sb1 0 __new_block_update: 1.41037202375
+Loop 2 sb1 0 post-nbu: 0.0203663275
+Loop 2 pre-Bcast (1): 0.01607743
+Loop 2 Bcast (1): 0.017880375
+Loop 2 post-Bcast (1): 4.87275000012e-05
+Loop 2 sb1 0 pre-agg (2): 0.0171125525
+Loop 2 sb1 0 __aggregate (2): 1.09532324125
+Loop 2 sb1 0 __set_curr_gen (3): 0.000255072499982
+Loop 2 sb1 0 __block_update: 4.71803859875
+Loop 2 __block_reduc: 39.4599893237
+Loop 2 save end: 0.00018012000001
+Loop 2 save checkpoint: 0.000352168749998
+Loop 2 time = 39.4647910512
+Loop 3
+Loop 3 __set_curr_gen (1): 0.000154219999985
+Loop 3 sb1 0 pre-jloop1: 0.04951379375
+Loop 3 sb1 0 j 0 __house_vec: 0.00292324874999
+Loop 3 sb1 0 j 0 hv-to-su: 0.000111033750017
+Loop 3 sb1 0 j 0 __seq_update: 0.0529501025
+Loop 3 sb1 0 j 1 __house_vec: 0.0027721825
+Loop 3 sb1 0 j 1 hv-to-su: 0.000114041250015
+Loop 3 sb1 0 j 1 __seq_update: 0.05289476375
+Loop 3 sb1 0 j 2 __house_vec: 0.00277344375002
+Loop 3 sb1 0 j 2 hv-to-su: 0.000119215000012
+Loop 3 sb1 0 j 2 __seq_update: 0.05272261875
+Loop 3 sb1 0 j 3 __house_vec: 0.00275228500001
+Loop 3 sb1 0 j 3 hv-to-su: 0.000108304999998
+Loop 3 sb1 0 j 3 __seq_update: 0.052771435
+Loop 3 sb1 0 jloop1: 31.1241057787
+Loop 3 sb1 0 jloop1-to-agg1: 4.87549999946e-05
+Loop 3 sb1 0 __aggregate (1): 0.95435676625
+Loop 3 sb1 0 __set_curr_gen (2): 0.000226368749992
+Loop 3 sb1 0 __new_block_update: 1.411373365
+Loop 3 sb1 0 post-nbu: 0.02037920875
+Loop 3 pre-Bcast (1): 0.01609818125
+Loop 3 Bcast (1): 0.018056905
+Loop 3 post-Bcast (1): 4.82212500117e-05
+Loop 3 sb1 0 pre-agg (2): 0.0170219175
+Loop 3 sb1 0 __aggregate (2): 1.098805545
+Loop 3 sb1 0 __set_curr_gen (3): 0.000254058749988
+Loop 3 sb1 0 __block_update: 4.67943897375
+Loop 3 __block_reduc: 39.3981687888
+Loop 3 save end: 0.000184305000005
+Loop 3 save checkpoint: 0.000357838750006
+Loop 3 time = 39.402164985
+Loop 4
+Loop 4 __set_curr_gen (1): 0.000157818749983
+Loop 4 sb1 0 pre-jloop1: 0.04961671375
+Loop 4 sb1 0 j 0 __house_vec: 0.0029093775
+Loop 4 sb1 0 j 0 hv-to-su: 0.000104632499983
+Loop 4 sb1 0 j 0 __seq_update: 0.052965125
+Loop 4 sb1 0 j 1 __house_vec: 0.00277325375001
+Loop 4 sb1 0 j 1 hv-to-su: 0.000110481249976
+Loop 4 sb1 0 j 1 __seq_update: 0.052751335
+Loop 4 sb1 0 j 2 __house_vec: 0.00277076
+Loop 4 sb1 0 j 2 hv-to-su: 0.000119005000016
+Loop 4 sb1 0 j 2 __seq_update: 0.05283124
+Loop 4 sb1 0 j 3 __house_vec: 0.00275285124999
+Loop 4 sb1 0 j 3 hv-to-su: 0.000107562500006
+Loop 4 sb1 0 j 3 __seq_update: 0.05271591375
+Loop 4 sb1 0 jloop1: 31.065837015
+Loop 4 sb1 0 jloop1-to-agg1: 4.4470000006e-05
+Loop 4 sb1 0 __aggregate (1): 0.86450496
+Loop 4 sb1 0 __set_curr_gen (2): 0.000210097500002
+Loop 4 sb1 0 __new_block_update: 1.40972733375
+Loop 4 sb1 0 post-nbu: 0.02029193625
+Loop 4 pre-Bcast (1): 0.01609261375
+Loop 4 Bcast (1): 0.0176242975
+Loop 4 post-Bcast (1): 4.88649999966e-05
+Loop 4 sb1 0 pre-agg (2): 0.0170127375
+Loop 4 sb1 0 __aggregate (2): 1.09009869375
+Loop 4 sb1 0 __set_curr_gen (3): 0.000258145624997
+Loop 4 sb1 0 __block_update: 4.633404555
+Loop 4 __block_reduc: 39.1934444988
+Loop 4 save end: 0.000182609999996
+Loop 4 save checkpoint: 0.000353851249997
+Loop 4 time = 39.1967557475
+Loop 5
+Loop 5 __set_curr_gen (1): 0.000156871249999
+Loop 5 sb1 0 pre-jloop1: 0.04969092375
+Loop 5 sb1 0 j 0 __house_vec: 0.002917645
+Loop 5 sb1 0 j 0 hv-to-su: 0.000107127500002
+Loop 5 sb1 0 j 0 __seq_update: 0.05294592375
+Loop 5 sb1 0 j 1 __house_vec: 0.00281484500002
+Loop 5 sb1 0 j 1 hv-to-su: 0.000112774999991
+Loop 5 sb1 0 j 1 __seq_update: 0.0527157425
+Loop 5 sb1 0 j 2 __house_vec: 0.00277053125001
+Loop 5 sb1 0 j 2 hv-to-su: 0.000119589999997
+Loop 5 sb1 0 j 2 __seq_update: 0.05273615375
+Loop 5 sb1 0 j 3 __house_vec: 0.002751545
+Loop 5 sb1 0 j 3 hv-to-su: 0.000108507499988
+Loop 5 sb1 0 j 3 __seq_update: 0.05269574625
+Loop 5 sb1 0 jloop1: 31.0084584
+Loop 5 sb1 0 jloop1-to-agg1: 4.82937500124e-05
+Loop 5 sb1 0 __aggregate (1): 0.86420935625
+Loop 5 sb1 0 __set_curr_gen (2): 0.000211103749962
+Loop 5 sb1 0 __new_block_update: 1.41106210875
+Loop 5 sb1 0 post-nbu: 0.02071541
+Loop 5 pre-Bcast (1): 0.01601170125
+Loop 5 Bcast (1): 0.017886525
+Loop 5 post-Bcast (1): 5.20749999851e-05
+Loop 5 sb1 0 pre-agg (2): 0.01697271375
+Loop 5 sb1 0 __aggregate (2): 1.0879225375
+Loop 5 sb1 0 __set_curr_gen (3): 0.000258502500003
+Loop 5 sb1 0 __block_update: 4.5934653175
+Loop 5 __block_reduc: 39.0954374212
+Loop 5 save end: 0.00017951625
+Loop 5 save checkpoint: 0.000366373750012
+Loop 5 time = 39.099302425
+Loop 6
+Loop 6 __set_curr_gen (1): 0.000155768749948
+Loop 6 sb1 0 pre-jloop1: 0.04954947
+Loop 6 sb1 0 j 0 __house_vec: 0.00292144374998
+Loop 6 sb1 0 j 0 hv-to-su: 0.000107613750004
+Loop 6 sb1 0 j 0 __seq_update: 0.05301967
+Loop 6 sb1 0 j 1 __house_vec: 0.00276928
+Loop 6 sb1 0 j 1 hv-to-su: 0.000112502499974
+Loop 6 sb1 0 j 1 __seq_update: 0.05275383625
+Loop 6 sb1 0 j 2 __house_vec: 0.00276779375002
+Loop 6 sb1 0 j 2 hv-to-su: 0.000118708749994
+Loop 6 sb1 0 j 2 __seq_update: 0.05276743875
+Loop 6 sb1 0 j 3 __house_vec: 0.00275367500001
+Loop 6 sb1 0 j 3 hv-to-su: 0.000109913750009
+Loop 6 sb1 0 j 3 __seq_update: 0.05256865
+Loop 6 sb1 0 jloop1: 31.1331483825
+Loop 6 sb1 0 jloop1-to-agg1: 4.65437499884e-05
+Loop 6 sb1 0 __aggregate (1): 0.86427407875
+Loop 6 sb1 0 __set_curr_gen (2): 0.000210347500001
+Loop 6 sb1 0 __new_block_update: 1.40939418375
+Loop 6 sb1 0 post-nbu: 0.02032283875
+Loop 6 pre-Bcast (1): 0.01611300375
+Loop 6 Bcast (1): 0.01774539125
+Loop 6 post-Bcast (1): 4.83137499714e-05
+Loop 6 sb1 0 pre-agg (2): 0.0169973775
+Loop 6 sb1 0 __aggregate (2): 1.085930585
+Loop 6 sb1 0 __set_curr_gen (3): 0.000258079999981
+Loop 6 sb1 0 __block_update: 4.5970863
+Loop 6 __block_reduc: 39.2197304981
+Loop 6 save end: 0.000185475000023
+Loop 6 save checkpoint: 0.000357085000019
+Loop 6 time = 39.2229260925
+Loop 7
+Loop 7 __set_curr_gen (1): 0.000162946249986
+Loop 7 sb1 0 pre-jloop1: 0.0495313325
+Loop 7 sb1 0 j 0 __house_vec: 0.00292567125001
+Loop 7 sb1 0 j 0 hv-to-su: 0.000107381250018
+Loop 7 sb1 0 j 0 __seq_update: 0.052985045
+Loop 7 sb1 0 j 1 __house_vec: 0.00277285250002
+Loop 7 sb1 0 j 1 hv-to-su: 0.000112863750019
+Loop 7 sb1 0 j 1 __seq_update: 0.0527607675
+Loop 7 sb1 0 j 2 __house_vec: 0.0027794225
+Loop 7 sb1 0 j 2 hv-to-su: 0.000118973750034
+Loop 7 sb1 0 j 2 __seq_update: 0.05271930625
+Loop 7 sb1 0 j 3 __house_vec: 0.00275907000002
+Loop 7 sb1 0 j 3 hv-to-su: 0.000108319999981
+Loop 7 sb1 0 j 3 __seq_update: 0.05258323875
+Loop 7 sb1 0 jloop1: 30.9914094462
+Loop 7 sb1 0 jloop1-to-agg1: 4.56787499843e-05
+Loop 7 sb1 0 __aggregate (1): 0.95480026875
+Loop 7 sb1 0 __set_curr_gen (2): 0.000228544374977
+Loop 7 sb1 0 __new_block_update: 1.41103825625
+Loop 7 sb1 0 post-nbu: 0.02005817
+Loop 7 pre-Bcast (1): 0.01605529875
+Loop 7 Bcast (1): 0.0178816
+Loop 7 post-Bcast (1): 4.86437500058e-05
+Loop 7 sb1 0 pre-agg (2): 0.01699072375
+Loop 7 sb1 0 __aggregate (2): 1.08439274
+Loop 7 sb1 0 __set_curr_gen (3): 0.000260772500042
+Loop 7 sb1 0 __block_update: 4.57485457375
+Loop 7 __block_reduc: 39.1462592625
+Loop 7 save end: 0.000180759999978
+Loop 7 save checkpoint: 0.000357774999998
+Loop 7 time = 39.1498555463
+Loop 8
+Loop 8 __set_curr_gen (1): 0.000155823749992
+Loop 8 sb1 0 pre-jloop1: 0.0494966125
+Loop 8 sb1 0 j 0 __house_vec: 0.00294070874997
+Loop 8 sb1 0 j 0 hv-to-su: 0.000107008750035
+Loop 8 sb1 0 j 0 __seq_update: 0.052922315
+Loop 8 sb1 0 j 1 __house_vec: 0.00277575500002
+Loop 8 sb1 0 j 1 hv-to-su: 0.000112009999953
+Loop 8 sb1 0 j 1 __seq_update: 0.05272223875
+Loop 8 sb1 0 j 2 __house_vec: 0.00277510749999
+Loop 8 sb1 0 j 2 hv-to-su: 0.00011799875
+Loop 8 sb1 0 j 2 __seq_update: 0.0527049175
+Loop 8 sb1 0 j 3 __house_vec: 0.00275242999999
+Loop 8 sb1 0 j 3 hv-to-su: 0.000107881250017
+Loop 8 sb1 0 j 3 __seq_update: 0.052609225
+Loop 8 sb1 0 jloop1: 31.0332009275
+Loop 8 sb1 0 jloop1-to-agg1: 4.93674999689e-05
+Loop 8 sb1 0 __aggregate (1): 0.8646889175
+Loop 8 sb1 0 __set_curr_gen (2): 0.000206254999966
+Loop 8 sb1 0 __new_block_update: 1.40898607375
+Loop 8 sb1 0 post-nbu: 0.0202799425
+Loop 8 pre-Bcast (1): 0.0159862775
+Loop 8 Bcast (1): 0.01760790375
+Loop 8 post-Bcast (1): 4.98712500416e-05
+Loop 8 sb1 0 pre-agg (2): 0.01700414625
+Loop 8 sb1 0 __aggregate (2): 1.08441193125
+Loop 8 sb1 0 __set_curr_gen (3): 0.000258790000032
+Loop 8 sb1 0 __block_update: 4.509691865
+Loop 8 __block_reduc: 39.0302768513
+Loop 8 save end: 0.000182549999977
+Loop 8 save checkpoint: 0.000364018749963
+Loop 8 time = 39.03351463
+Loop 9
+Loop 9 __set_curr_gen (1): 0.000160063750002
+Loop 9 sb1 0 pre-jloop1: 0.04957365375
+Loop 9 sb1 0 j 0 __house_vec: 0.00292012250003
+Loop 9 sb1 0 j 0 hv-to-su: 0.000104324999995
+Loop 9 sb1 0 j 0 __seq_update: 0.05304612625
+Loop 9 sb1 0 j 1 __house_vec: 0.0027843725
+Loop 9 sb1 0 j 1 hv-to-su: 0.00011303375004
+Loop 9 sb1 0 j 1 __seq_update: 0.05278173625
+Loop 9 sb1 0 j 2 __house_vec: 0.00277791499997
+Loop 9 sb1 0 j 2 hv-to-su: 0.000118951249988
+Loop 9 sb1 0 j 2 __seq_update: 0.05271544
+Loop 9 sb1 0 j 3 __house_vec: 0.00276393250005
+Loop 9 sb1 0 j 3 hv-to-su: 0.000110258749999
+Loop 9 sb1 0 j 3 __seq_update: 0.052652705
+Loop 9 sb1 0 jloop1: 30.9544089188
+Loop 9 sb1 0 jloop1-to-agg1: 4.52075000226e-05
+Loop 9 sb1 0 __aggregate (1): 0.95571120875
+Loop 9 sb1 0 __set_curr_gen (2): 0.000228401249956
+Loop 9 sb1 0 __new_block_update: 1.4100009925
+Loop 9 sb1 0 post-nbu: 0.02033892125
+Loop 9 pre-Bcast (1): 0.01604136375
+Loop 9 Bcast (1): 0.01767569
+Loop 9 post-Bcast (1): 5.09824999995e-05
+Loop 9 sb1 0 pre-agg (2): 0.01702666
+Loop 9 sb1 0 __aggregate (2): 1.0849743325
+Loop 9 sb1 0 __set_curr_gen (3): 0.000258177500029
+Loop 9 sb1 0 __block_update: 4.4976522275
+Loop 9 __block_reduc: 39.03263995
+Loop 9 save end: 0.000183832499999
+Loop 9 save checkpoint: 0.000368478750033
+Loop 9 time = 39.0361101437
+Loop 10
+Loop 10 __set_curr_gen (1): 0.000155688750056
+Loop 10 sb1 0 pre-jloop1: 0.04940045
+Loop 10 sb1 0 j 0 __house_vec: 0.00291385000003
+Loop 10 sb1 0 j 0 hv-to-su: 0.000103683750012
+Loop 10 sb1 0 j 0 __seq_update: 0.05289392125
+Loop 10 sb1 0 j 1 __house_vec: 0.00277992562502
+Loop 10 sb1 0 j 1 hv-to-su: 0.000112342500017
+Loop 10 sb1 0 j 1 __seq_update: 0.05267595875
+Loop 10 sb1 0 j 2 __house_vec: 0.00277432874998
+Loop 10 sb1 0 j 2 hv-to-su: 0.000118315000009
+Loop 10 sb1 0 j 2 __seq_update: 0.0526546925
+Loop 10 sb1 0 j 3 __house_vec: 0.00275920749999
+Loop 10 sb1 0 j 3 hv-to-su: 0.000108073750027
+Loop 10 sb1 0 j 3 __seq_update: 0.0525291225
+Loop 10 sb1 0 jloop1: 30.9411099863
+Loop 10 sb1 0 jloop1-to-agg1: 4.55362500134e-05
+Loop 10 sb1 0 __aggregate (1): 0.86327910125
+Loop 10 sb1 0 __set_curr_gen (2): 0.000206276250026
+Loop 10 sb1 0 __new_block_update: 1.411663735
+Loop 10 sb1 0 post-nbu: 0.02018037625
+Loop 10 pre-Bcast (1): 0.0160456575
+Loop 10 Bcast (1): 0.017687784375
+Loop 10 post-Bcast (1): 4.91212500151e-05
+Loop 10 sb1 0 pre-agg (2): 0.01704503625
+Loop 10 sb1 0 __aggregate (2): 1.08498987375
+Loop 10 sb1 0 __set_curr_gen (3): 0.000258868749995
+Loop 10 sb1 0 __block_update: 4.4997300875
+Loop 10 __block_reduc: 38.9302860925
+Loop 10 save end: 0.000179776249979
+Loop 10 save checkpoint: 0.000362573125017
+Loop 10 time = 38.9335587537
+Loop 11
+Loop 11 __set_curr_gen (1): 0.000161433750009
+Loop 11 sb1 0 pre-jloop1: 0.049608025
+Loop 11 sb1 0 j 0 __house_vec: 0.00292468250001
+Loop 11 sb1 0 j 0 hv-to-su: 0.000106558749962
+Loop 11 sb1 0 j 0 __seq_update: 0.0530433775
+Loop 11 sb1 0 j 1 __house_vec: 0.00277662875004
+Loop 11 sb1 0 j 1 hv-to-su: 0.000111671250011
+Loop 11 sb1 0 j 1 __seq_update: 0.05291791125
+Loop 11 sb1 0 j 2 __house_vec: 0.00276890749996
+Loop 11 sb1 0 j 2 hv-to-su: 0.000119180000013
+Loop 11 sb1 0 j 2 __seq_update: 0.05280285375
+Loop 11 sb1 0 j 3 __house_vec: 0.00279861249999
+Loop 11 sb1 0 j 3 hv-to-su: 0.000107969999988
+Loop 11 sb1 0 j 3 __seq_update: 0.05277079125
+Loop 11 sb1 0 jloop1: 31.2858571062
+Loop 11 sb1 0 jloop1-to-agg1: 4.85787500111e-05
+Loop 11 sb1 0 __aggregate (1): 0.8643781675
+Loop 11 sb1 0 __set_curr_gen (2): 0.000206383750083
+Loop 11 sb1 0 __new_block_update: 1.41022992875
+Loop 11 sb1 0 post-nbu: 0.02015272375
+Loop 11 pre-Bcast (1): 0.01606338
+Loop 11 Bcast (1): 0.01762342625
+Loop 11 post-Bcast (1): 4.91849999662e-05
+Loop 11 sb1 0 pre-agg (2): 0.0170837268749
+Loop 11 sb1 0 __aggregate (2): 1.08505307625
+Loop 11 sb1 0 __set_curr_gen (3): 0.000262712499989
+Loop 11 sb1 0 __block_update: 4.49330282125
+Loop 11 __block_reduc: 39.2684925175
+Loop 11 save end: 0.000181184999974
+Loop 11 save checkpoint: 0.000359379999963
+Loop 11 time = 39.2720004988
+Loop 12
+Loop 12 __set_curr_gen (1): 0.000155797500042
+Loop 12 sb1 0 pre-jloop1: 0.0494239662501
+Loop 12 sb1 0 j 0 __house_vec: 0.00292444374998
+Loop 12 sb1 0 j 0 hv-to-su: 0.000103876250023
+Loop 12 sb1 0 j 0 __seq_update: 0.0529278299999
+Loop 12 sb1 0 j 1 __house_vec: 0.00278390624999
+Loop 12 sb1 0 j 1 hv-to-su: 0.000112612500061
+Loop 12 sb1 0 j 1 __seq_update: 0.05279453875
+Loop 12 sb1 0 j 2 __house_vec: 0.00281509625006
+Loop 12 sb1 0 j 2 hv-to-su: 0.000119837499938
+Loop 12 sb1 0 j 2 __seq_update: 0.05274052375
+Loop 12 sb1 0 j 3 __house_vec: 0.00275829124996
+Loop 12 sb1 0 j 3 hv-to-su: 0.000108566249992
+Loop 12 sb1 0 j 3 __seq_update: 0.05270025125
+Loop 12 sb1 0 jloop1: 31.0331048587
+Loop 12 sb1 0 jloop1-to-agg1: 4.62312499394e-05
+Loop 12 sb1 0 __aggregate (1): 0.958462034375
+Loop 12 sb1 0 __set_curr_gen (2): 0.000228988749996
+Loop 12 sb1 0 __new_block_update: 1.411593825
+Loop 12 sb1 0 post-nbu: 0.0202707418749
+Loop 12 pre-Bcast (1): 0.016031935
+Loop 12 Bcast (1): 0.01761408125
+Loop 12 post-Bcast (1): 4.96387499425e-05
+Loop 12 sb1 0 pre-agg (2): 0.0169800912499
+Loop 12 sb1 0 __aggregate (2): 1.08439213
+Loop 12 sb1 0 __set_curr_gen (3): 0.00026086750006
+Loop 12 sb1 0 __block_update: 4.4973150525
+Loop 12 __block_reduc: 39.1142695013
+Loop 12 save end: 0.000185031249998
+Loop 12 save checkpoint: 0.00036192624998
+Loop 12 time = 39.117494285
+Loop 13
+Loop 13 __set_curr_gen (1): 0.000155710000058
+Loop 13 sb1 0 pre-jloop1: 0.0496405387501
+Loop 13 sb1 0 j 0 __house_vec: 0.00292570875001
+Loop 13 sb1 0 j 0 hv-to-su: 0.000104441250073
+Loop 13 sb1 0 j 0 __seq_update: 0.05302103875
+Loop 13 sb1 0 j 1 __house_vec: 0.00278044624997
+Loop 13 sb1 0 j 1 hv-to-su: 0.000113301250053
+Loop 13 sb1 0 j 1 __seq_update: 0.05274586625
+Loop 13 sb1 0 j 2 __house_vec: 0.00277508250008
+Loop 13 sb1 0 j 2 hv-to-su: 0.000118880000059
+Loop 13 sb1 0 j 2 __seq_update: 0.05268797
+Loop 13 sb1 0 j 3 __house_vec: 0.00276267375
+Loop 13 sb1 0 j 3 hv-to-su: 0.000108866250002
+Loop 13 sb1 0 j 3 __seq_update: 0.0526811525001
+Loop 13 sb1 0 jloop1: 30.9533560037
+Loop 13 sb1 0 jloop1-to-agg1: 4.8871250101e-05
+Loop 13 sb1 0 __aggregate (1): 0.957720205
+Loop 13 sb1 0 __set_curr_gen (2): 0.000224148750021
+Loop 13 sb1 0 __new_block_update: 1.41008410375
+Loop 13 sb1 0 post-nbu: 0.0201753575
+Loop 13 pre-Bcast (1): 0.0160387625
+Loop 13 Bcast (1): 0.01794450375
+Loop 13 post-Bcast (1): 4.86937499318e-05
+Loop 13 sb1 0 pre-agg (2): 0.0169894549999
+Loop 13 sb1 0 __aggregate (2): 1.09134579
+Loop 13 sb1 0 __set_curr_gen (3): 0.000263301250016
+Loop 13 sb1 0 __block_update: 4.5136818975
+Loop 13 __block_reduc: 39.056013555
+Loop 13 save end: 0.000184311249996
+Loop 13 save checkpoint: 0.000363809999953
+Loop 13 time = 39.0599164894
+Loop 14
+Loop 14 __set_curr_gen (1): 0.000156906874963
+Loop 14 sb1 0 pre-jloop1: 0.049512145
+Loop 14 sb1 0 j 0 __house_vec: 0.00292052500004
+Loop 14 sb1 0 j 0 hv-to-su: 0.000104646249952
+Loop 14 sb1 0 j 0 __seq_update: 0.05294884
+Loop 14 sb1 0 j 1 __house_vec: 0.00278238249996
+Loop 14 sb1 0 j 1 hv-to-su: 0.000113516249939
+Loop 14 sb1 0 j 1 __seq_update: 0.05281617
+Loop 14 sb1 0 j 2 __house_vec: 0.00277472875007
+Loop 14 sb1 0 j 2 hv-to-su: 0.000118271250017
+Loop 14 sb1 0 j 2 __seq_update: 0.05272338125
+Loop 14 sb1 0 j 3 __house_vec: 0.00276685124993
+Loop 14 sb1 0 j 3 hv-to-su: 0.000108126249984
+Loop 14 sb1 0 j 3 __seq_update: 0.0526804212501
+Loop 14 sb1 0 jloop1: 30.9578723675
+Loop 14 sb1 0 jloop1-to-agg1: 4.93349999715e-05
+Loop 14 sb1 0 __aggregate (1): 0.954378805
+Loop 14 sb1 0 __set_curr_gen (2): 0.000229115000025
+Loop 14 sb1 0 __new_block_update: 1.41109086
+Loop 14 sb1 0 post-nbu: 0.02061172625
+Loop 14 pre-Bcast (1): 0.0160708325001
+Loop 14 Bcast (1): 0.0177988375001
+Loop 14 post-Bcast (1): 5.27575000433e-05
+Loop 14 sb1 0 pre-agg (2): 0.0170148225
+Loop 14 sb1 0 __aggregate (2): 1.08641302375
+Loop 14 sb1 0 __set_curr_gen (3): 0.000257624374967
+Loop 14 sb1 0 __block_update: 4.51296439875
+Loop 14 __block_reduc: 39.052775675
+Loop 14 save end: 0.000184657499972
+Loop 14 save checkpoint: 0.000365671250051
+Loop 14 time = 39.05613675
+Loop 15
+Loop 15 __set_curr_gen (1): 0.000154772500082
+Loop 15 sb1 0 pre-jloop1: 0.04946456625
+Loop 15 sb1 0 j 0 __house_vec: 0.00293434499997
+Loop 15 sb1 0 j 0 hv-to-su: 0.000105624999946
+Loop 15 sb1 0 j 0 __seq_update: 0.05284497375
+Loop 15 sb1 0 j 1 __house_vec: 0.00278136874999
+Loop 15 sb1 0 j 1 hv-to-su: 0.000113022500045
+Loop 15 sb1 0 j 1 __seq_update: 0.05272574875
+Loop 15 sb1 0 j 2 __house_vec: 0.00278242624995
+Loop 15 sb1 0 j 2 hv-to-su: 0.000118251250001
+Loop 15 sb1 0 j 2 __seq_update: 0.0526705775
+Loop 15 sb1 0 j 3 __house_vec: 0.0027964300001
+Loop 15 sb1 0 j 3 hv-to-su: 0.000108111250029
+Loop 15 sb1 0 j 3 __seq_update: 0.0525642812499
+Loop 15 sb1 0 jloop1: 30.9871244425
+Loop 15 sb1 0 jloop1-to-agg1: 4.62656250875e-05
+Loop 15 sb1 0 __aggregate (1): 0.86420833
+Loop 15 sb1 0 __set_curr_gen (2): 0.00021095312502
+Loop 15 sb1 0 __new_block_update: 1.4100065875
+Loop 15 sb1 0 post-nbu: 0.0201621225
+Loop 15 pre-Bcast (1): 0.0160529725
+Loop 15 Bcast (1): 0.01777605375
+Loop 15 post-Bcast (1): 4.8270000093e-05
+Loop 15 sb1 0 pre-agg (2): 0.01702311875
+Loop 15 sb1 0 __aggregate (2): 1.090639755
+Loop 15 sb1 0 __set_curr_gen (3): 0.000265676250024
+Loop 15 sb1 0 __block_update: 4.44117181625
+Loop 15 __block_reduc: 38.92271149
+Loop 15 save end: 0.000184146250035
+Loop 15 save checkpoint: 0.000362351249919
+Loop 15 time = 38.9264526763
+Loop 16
+Loop 16 __set_curr_gen (1): 0.000159148749958
+Loop 16 sb1 0 pre-jloop1: 0.0495220324999
+Loop 16 sb1 0 j 0 __house_vec: 0.00306653500002
+Loop 16 sb1 0 j 0 hv-to-su: 0.000103591249967
+Loop 16 sb1 0 j 0 __seq_update: 0.052938435
+Loop 16 sb1 0 j 1 __house_vec: 0.00263021374997
+Loop 16 sb1 0 j 1 hv-to-su: 0.000108582500047
+Loop 16 sb1 0 j 1 __seq_update: 0.05248069375
+Loop 16 sb1 0 j 2 __house_vec: 0.00263039562492
+Loop 16 sb1 0 j 2 hv-to-su: 0.000111897500005
+Loop 16 sb1 0 j 2 __seq_update: 0.052506075
+Loop 16 sb1 0 j 3 __house_vec: 0.00262455625
+Loop 16 sb1 0 j 3 hv-to-su: 0.000108834999992
+Loop 16 sb1 0 j 3 __seq_update: 0.0524676
+Loop 16 sb1 0 jloop1: 30.8079588325
+Loop 16 sb1 0 jloop1-to-agg1: 4.56237499975e-05
+Loop 16 sb1 0 __aggregate (1): 0.8625056225
+Loop 16 sb1 0 __set_curr_gen (2): 0.000212378750007
+Loop 16 sb1 0 __new_block_update: 1.32616596875
+Loop 16 sb1 0 post-nbu: 0.0202383075
+Loop 16 pre-Bcast (1): 0.0160758068749
+Loop 16 Bcast (1): 0.0178057400001
+Loop 16 post-Bcast (1): 5.20187500115e-05
+Loop 16 sb1 0 pre-agg (2): 0.0170327
+Loop 16 sb1 0 __aggregate (2): 1.08875900125
+Loop 16 sb1 0 __set_curr_gen (3): 0.000263835624992
+Loop 16 sb1 0 __block_update: 4.44884233375
+Loop 16 __block_reduc: 38.6638743306
+Loop 16 save end: 0.0559630624999
+Loop 16 save checkpoint: 0.000400728750037
+Loop 16 time = 38.7230925887
+Loop 17
+Loop 17 __set_curr_gen (1): 0.00021511875002
+Loop 17 sb1 0 pre-jloop1: 0.0494989125
+Loop 17 sb1 0 j 0 __house_vec: 0.00307310999995
+Loop 17 sb1 0 j 0 hv-to-su: 0.00010371999997
+Loop 17 sb1 0 j 0 __seq_update: 0.0529070599999
+Loop 17 sb1 0 j 1 __house_vec: 0.00264175375003
+Loop 17 sb1 0 j 1 hv-to-su: 0.000106220000021
+Loop 17 sb1 0 j 1 __seq_update: 0.052601095
+Loop 17 sb1 0 j 2 __house_vec: 0.00262886749999
+Loop 17 sb1 0 j 2 hv-to-su: 0.000110226249944
+Loop 17 sb1 0 j 2 __seq_update: 0.0526152375
+Loop 17 sb1 0 j 3 __house_vec: 0.00262083250004
+Loop 17 sb1 0 j 3 hv-to-su: 0.000107472499963
+Loop 17 sb1 0 j 3 __seq_update: 0.0524784875
+Loop 17 sb1 0 jloop1: 30.9266028837
+Loop 17 sb1 0 jloop1-to-agg1: 4.48762499445e-05
+Loop 17 sb1 0 __aggregate (1): 0.86161371125
+Loop 17 sb1 0 __set_curr_gen (2): 0.000210297499962
+Loop 17 sb1 0 __new_block_update: 1.4346981275
+Loop 17 sb1 0 post-nbu: 0.0201557300001
+Loop 17 pre-Bcast (1): 0.01602579875
+Loop 17 Bcast (1): 0.0179828724999
+Loop 17 post-Bcast (1): 4.91424999609e-05
+Loop 17 sb1 0 pre-agg (2): 0.01693594875
+Loop 17 sb1 0 __aggregate (2): 1.08890740875
+Loop 17 sb1 0 __set_curr_gen (3): 0.000262273749968
+Loop 17 sb1 0 __block_update: 4.36059620375
+Loop 17 __block_reduc: 38.8020189963
+Loop 17 save end: 0.04493591375
+Loop 17 save checkpoint: 0.00040730624994
+Loop 17 time = 38.8504670163
+Loop 18
+Loop 18 __set_curr_gen (1): 0.000213959999996
+Loop 18 sb1 0 pre-jloop1: 0.0495158
+Loop 18 sb1 0 j 0 __house_vec: 0.00302919499995
+Loop 18 sb1 0 j 0 hv-to-su: 0.000106577499992
+Loop 18 sb1 0 j 0 __seq_update: 0.052983073125
+Loop 18 sb1 0 j 1 __house_vec: 0.00263919500003
+Loop 18 sb1 0 j 1 hv-to-su: 0.000107841250042
+Loop 18 sb1 0 j 1 __seq_update: 0.05268447125
+Loop 18 sb1 0 j 2 __house_vec: 0.00263055000005
+Loop 18 sb1 0 j 2 hv-to-su: 0.000110047499902
+Loop 18 sb1 0 j 2 __seq_update: 0.05260477
+Loop 18 sb1 0 j 3 __house_vec: 0.00263196000003
+Loop 18 sb1 0 j 3 hv-to-su: 0.000107967499957
+Loop 18 sb1 0 j 3 __seq_update: 0.05268067875
+Loop 18 sb1 0 jloop1: 30.9595139663
+Loop 18 sb1 0 jloop1-to-agg1: 4.51075000001e-05
+Loop 18 sb1 0 __aggregate (1): 0.86114982
+Loop 18 sb1 0 __set_curr_gen (2): 0.000208300000054
+Loop 18 sb1 0 __new_block_update: 1.4346396575
+Loop 18 sb1 0 post-nbu: 0.020124205
+Loop 18 pre-Bcast (1): 0.016011995625
+Loop 18 Bcast (1): 0.01782324625
+Loop 18 post-Bcast (1): 4.91562500429e-05
+Loop 18 sb1 0 pre-agg (2): 0.01689889375
+Loop 18 sb1 0 __aggregate (2): 1.08634432
+Loop 18 sb1 0 __set_curr_gen (3): 0.00028306750005
+Loop 18 sb1 0 __block_update: 4.29597621625
+Loop 18 __block_reduc: 38.7670104213
+Loop 18 save end: 0.04943582125
+Loop 18 save checkpoint: 0.000395238750002
+Loop 18 time = 38.819952095
+Loop 19
+Loop 19 __set_curr_gen (1): 0.000215568750036
+Loop 19 sb1 0 pre-jloop1: 0.04956746125
+Loop 19 sb1 0 j 0 __house_vec: 0.00304548625002
+Loop 19 sb1 0 j 0 hv-to-su: 0.00010318249997
+Loop 19 sb1 0 j 0 __seq_update: 0.05290272375
+Loop 19 sb1 0 j 1 __house_vec: 0.00264459250002
+Loop 19 sb1 0 j 1 hv-to-su: 0.000106678750058
+Loop 19 sb1 0 j 1 __seq_update: 0.05262862
+Loop 19 sb1 0 j 2 __house_vec: 0.00263519999999
+Loop 19 sb1 0 j 2 hv-to-su: 0.00010922125
+Loop 19 sb1 0 j 2 __seq_update: 0.052663435
+Loop 19 sb1 0 j 3 __house_vec: 0.00263227250002
+Loop 19 sb1 0 j 3 hv-to-su: 0.000107660000026
+Loop 19 sb1 0 j 3 __seq_update: 0.05259075125
+Loop 19 sb1 0 jloop1: 30.8960788237
+Loop 19 sb1 0 jloop1-to-agg1: 4.83312500137e-05
+Loop 19 sb1 0 __aggregate (1): 0.86222036625
+Loop 19 sb1 0 __set_curr_gen (2): 0.000207824374911
+Loop 19 sb1 0 __new_block_update: 1.4347100225
+Loop 19 sb1 0 post-nbu: 0.02002044375
+Loop 19 pre-Bcast (1): 0.01604267
+Loop 19 Bcast (1): 0.0180653425
+Loop 19 post-Bcast (1): 4.98249999055e-05
+Loop 19 sb1 0 pre-agg (2): 0.01698180375
+Loop 19 sb1 0 __aggregate (2): 1.0872327
+Loop 19 sb1 0 __set_curr_gen (3): 0.000280654999983
+Loop 19 sb1 0 __block_update: 4.19114718
+Loop 19 __block_reduc: 38.6011351069
+Loop 19 save end: 0.0451753475
+Loop 19 save checkpoint: 0.000395944374986
+Loop 19 time = 38.6498196838
+Loop 20
+Loop 20 __set_curr_gen (1): 0.000217410000005
+Loop 20 sb1 0 pre-jloop1: 0.04944021625
+Loop 20 sb1 0 j 0 __house_vec: 0.00304612125001
+Loop 20 sb1 0 j 0 hv-to-su: 0.000103397500084
+Loop 20 sb1 0 j 0 __seq_update: 0.052981445
+Loop 20 sb1 0 j 1 __house_vec: 0.00263932250004
+Loop 20 sb1 0 j 1 hv-to-su: 0.000108346249931
+Loop 20 sb1 0 j 1 __seq_update: 0.05246376125
+Loop 20 sb1 0 j 2 __house_vec: 0.0026270825
+Loop 20 sb1 0 j 2 hv-to-su: 0.000113433750016
+Loop 20 sb1 0 j 2 __seq_update: 0.05255222375
+Loop 20 sb1 0 j 3 __house_vec: 0.00262025375002
+Loop 20 sb1 0 j 3 hv-to-su: 0.000108943749979
+Loop 20 sb1 0 j 3 __seq_update: 0.052544905
+Loop 20 sb1 0 jloop1: 30.8018143587
+Loop 20 sb1 0 jloop1-to-agg1: 4.48612501032e-05
+Loop 20 sb1 0 __aggregate (1): 0.861536675
+Loop 20 sb1 0 __set_curr_gen (2): 0.000209442500022
+Loop 20 sb1 0 __new_block_update: 1.43578488125
+Loop 20 sb1 0 post-nbu: 0.02011930125
+Loop 20 pre-Bcast (1): 0.0160662675
+Loop 20 Bcast (1): 0.01763315625
+Loop 20 post-Bcast (1): 4.82287500745e-05
+Loop 20 sb1 0 pre-agg (2): 0.0170038525
+Loop 20 sb1 0 __aggregate (2): 1.0870913275
+Loop 20 sb1 0 __set_curr_gen (3): 0.000263828750008
+Loop 20 sb1 0 __block_update: 4.19328968375
+Loop 20 __block_reduc: 38.50862899
+Loop 20 save end: 0.04916538
+Loop 20 save checkpoint: 0.000396522499955
+Loop 20 time = 38.5613663863
+Loop 21
+Loop 21 __set_curr_gen (1): 0.000215029999936
+Loop 21 sb1 0 pre-jloop1: 0.049461585
+Loop 21 sb1 0 j 0 __house_vec: 0.00302923499999
+Loop 21 sb1 0 j 0 hv-to-su: 0.000103088750052
+Loop 21 sb1 0 j 0 __seq_update: 0.0530483150001
+Loop 21 sb1 0 j 1 __house_vec: 0.00264562999996
+Loop 21 sb1 0 j 1 hv-to-su: 0.000107748749997
+Loop 21 sb1 0 j 1 __seq_update: 0.0527864749999
+Loop 21 sb1 0 j 2 __house_vec: 0.00263679249997
+Loop 21 sb1 0 j 2 hv-to-su: 0.000113909999982
+Loop 21 sb1 0 j 2 __seq_update: 0.05276275875
+Loop 21 sb1 0 j 3 __house_vec: 0.00264061874998
+Loop 21 sb1 0 j 3 hv-to-su: 0.000109269999939
+Loop 21 sb1 0 j 3 __seq_update: 0.05269454375
+Loop 21 sb1 0 jloop1: 30.995130365
+Loop 21 sb1 0 jloop1-to-agg1: 4.85824999714e-05
+Loop 21 sb1 0 __aggregate (1): 0.86193842875
+Loop 21 sb1 0 __set_curr_gen (2): 0.00020870374999
+Loop 21 sb1 0 __new_block_update: 1.4345224375
+Loop 21 sb1 0 post-nbu: 0.0200515912501
+Loop 21 pre-Bcast (1): 0.0160739425
+Loop 21 Bcast (1): 0.0180886112501
+Loop 21 post-Bcast (1): 4.81562500454e-05
+Loop 21 sb1 0 pre-agg (2): 0.01697118625
+Loop 21 sb1 0 __aggregate (2): 1.08752963125
+Loop 21 sb1 0 __set_curr_gen (3): 0.000260319999938
+Loop 21 sb1 0 __block_update: 4.093566355
+Loop 21 __block_reduc: 38.602299825
+Loop 21 save end: 0.04866101625
+Loop 21 save checkpoint: 0.000400398750003
+Loop 21 time = 38.6545584825
+Loop 22
+Loop 22 __set_curr_gen (1): 0.000216220000084
+Loop 22 sb1 0 pre-jloop1: 0.0494905524999
+Loop 22 sb1 0 j 0 __house_vec: 0.0030350049999
+Loop 22 sb1 0 j 0 hv-to-su: 0.000103841250052
+Loop 22 sb1 0 j 0 __seq_update: 0.052984305
+Loop 22 sb1 0 j 1 __house_vec: 0.00263490750001
+Loop 22 sb1 0 j 1 hv-to-su: 0.000105826249978
+Loop 22 sb1 0 j 1 __seq_update: 0.05265738125
+Loop 22 sb1 0 j 2 __house_vec: 0.00263246999998
+Loop 22 sb1 0 j 2 hv-to-su: 0.000113645000056
+Loop 22 sb1 0 j 2 __seq_update: 0.05248128125
+Loop 22 sb1 0 j 3 __house_vec: 0.00262331750002
+Loop 22 sb1 0 j 3 hv-to-su: 0.000106794999965
+Loop 22 sb1 0 j 3 __seq_update: 0.05254089375
+Loop 22 sb1 0 jloop1: 31.1387033537
+Loop 22 sb1 0 jloop1-to-agg1: 4.42475e-05
+Loop 22 sb1 0 __aggregate (1): 0.861142745
+Loop 22 sb1 0 __set_curr_gen (2): 0.000210017499967
+Loop 22 sb1 0 __new_block_update: 1.434220165
+Loop 22 sb1 0 post-nbu: 0.020176115
+Loop 22 pre-Bcast (1): 0.01606930375
+Loop 22 Bcast (1): 0.0179300149999
+Loop 22 post-Bcast (1): 5.01412499716e-05
+Loop 22 sb1 0 pre-agg (2): 0.0169384375
+Loop 22 sb1 0 __aggregate (2): 1.08860977437
+Loop 22 sb1 0 __set_curr_gen (3): 0.000266857500037
+Loop 22 sb1 0 __block_update: 4.0887869225
+Loop 22 __block_reduc: 38.7410217638
+Loop 22 save end: 0.0483921274999
+Loop 22 save checkpoint: 0.000397946875069
+Loop 22 time = 38.7926962519
+Loop 23
+Loop 23 __set_curr_gen (1): 0.000215791250071
+Loop 23 sb1 0 pre-jloop1: 0.0494299674999
+Loop 23 sb1 0 j 0 __house_vec: 0.00303152000004
+Loop 23 sb1 0 j 0 hv-to-su: 0.000104918750026
+Loop 23 sb1 0 j 0 __seq_update: 0.0530108568749
+Loop 23 sb1 0 j 1 __house_vec: 0.00263592124998
+Loop 23 sb1 0 j 1 hv-to-su: 0.000108557500084
+Loop 23 sb1 0 j 1 __seq_update: 0.052733245
+Loop 23 sb1 0 j 2 __house_vec: 0.00263823
+Loop 23 sb1 0 j 2 hv-to-su: 0.000115000000051
+Loop 23 sb1 0 j 2 __seq_update: 0.052648845
+Loop 23 sb1 0 j 3 __house_vec: 0.00263477750002
+Loop 23 sb1 0 j 3 hv-to-su: 0.000109692499905
+Loop 23 sb1 0 j 3 __seq_update: 0.0525725374999
+Loop 23 sb1 0 jloop1: 30.9577339925
+Loop 23 sb1 0 jloop1-to-agg1: 5.02112500271e-05
+Loop 23 sb1 0 __aggregate (1): 0.86071014875
+Loop 23 sb1 0 __set_curr_gen (2): 0.000208000000043
+Loop 23 sb1 0 __new_block_update: 1.434910335
+Loop 23 sb1 0 post-nbu: 0.0200985275001
+Loop 23 pre-Bcast (1): 0.01608532375
+Loop 23 Bcast (1): 0.01807527875
+Loop 23 post-Bcast (1): 4.92962499266e-05
+Loop 23 sb1 0 pre-agg (2): 0.0169998362501
+Loop 23 sb1 0 __aggregate (2): 1.0884015125
+Loop 23 sb1 0 __set_curr_gen (3): 0.000265764999995
+Loop 23 sb1 0 __block_update: 4.0601917175
+Loop 23 __block_reduc: 38.531813755
+Loop 23 save end: 0.0481036425
+Loop 23 save checkpoint: 0.000401656249892
+Loop 23 time = 38.5832212775
+Loop 24
+Loop 24 __set_curr_gen (1): 0.000213868749938
+Loop 24 sb1 0 pre-jloop1: 0.0496961712499
+Loop 24 sb1 0 j 0 __house_vec: 0.00304118125007
+Loop 24 sb1 0 j 0 hv-to-su: 0.000104396249981
+Loop 24 sb1 0 j 0 __seq_update: 0.0528934825001
+Loop 24 sb1 0 j 1 __house_vec: 0.00263830125004
+Loop 24 sb1 0 j 1 hv-to-su: 0.000106613125013
+Loop 24 sb1 0 j 1 __seq_update: 0.05273062
+Loop 24 sb1 0 j 2 __house_vec: 0.00263113125004
+Loop 24 sb1 0 j 2 hv-to-su: 0.000113696249969
+Loop 24 sb1 0 j 2 __seq_update: 0.05254303125
+Loop 24 sb1 0 j 3 __house_vec: 0.00262875374995
+Loop 24 sb1 0 j 3 hv-to-su: 0.000105466875084
+Loop 24 sb1 0 j 3 __seq_update: 0.0524244862501
+Loop 24 sb1 0 jloop1: 30.9344403162
+Loop 24 sb1 0 jloop1-to-agg1: 4.48312499657e-05
+Loop 24 sb1 0 __aggregate (1): 0.86092710875
+Loop 24 sb1 0 __set_curr_gen (2): 0.000209446249983
+Loop 24 sb1 0 __new_block_update: 1.43439548125
+Loop 24 sb1 0 post-nbu: 0.0200696375
+Loop 24 pre-Bcast (1): 0.01601016625
+Loop 24 Bcast (1): 0.01761918125
+Loop 24 post-Bcast (1): 4.83137499714e-05
+Loop 24 sb1 0 pre-agg (2): 0.01697623375
+Loop 24 sb1 0 __aggregate (2): 1.08897916
+Loop 24 sb1 0 __set_curr_gen (3): 0.000264825000158
+Loop 24 sb1 0 __block_update: 4.0055988325
+Loop 24 __block_reduc: 38.4538614638
+Loop 24 save end: 0.0461354387501
+Loop 24 save checkpoint: 0.000405584999953
+Loop 24 time = 38.5033558187
+Loop 25
+Loop 25 __set_curr_gen (1): 0.000214847500047
+Loop 25 sb1 0 pre-jloop1: 0.04957743625
+Loop 25 sb1 0 j 0 __house_vec: 0.00304037750016
+Loop 25 sb1 0 j 0 hv-to-su: 0.00010318124987
+Loop 25 sb1 0 j 0 __seq_update: 0.05296241625
+Loop 25 sb1 0 j 1 __house_vec: 0.00264233875009
+Loop 25 sb1 0 j 1 hv-to-su: 0.000111522499992
+Loop 25 sb1 0 j 1 __seq_update: 0.0526415662498
+Loop 25 sb1 0 j 2 __house_vec: 0.00263010499998
+Loop 25 sb1 0 j 2 hv-to-su: 0.000115872499919
+Loop 25 sb1 0 j 2 __seq_update: 0.0525367275
+Loop 25 sb1 0 j 3 __house_vec: 0.00262777625016
+Loop 25 sb1 0 j 3 hv-to-su: 0.000107074375137
+Loop 25 sb1 0 j 3 __seq_update: 0.05249124375
+Loop 25 sb1 0 jloop1: 30.8867148237
+Loop 25 sb1 0 jloop1-to-agg1: 4.53937500424e-05
+Loop 25 sb1 0 __aggregate (1): 0.9368300525
+Loop 25 sb1 0 __set_curr_gen (2): 0.000209918749988
+Loop 25 sb1 0 __new_block_update: 1.43434156813
+Loop 25 sb1 0 post-nbu: 0.0200507425
+Loop 25 pre-Bcast (1): 0.0161403
+Loop 25 Bcast (1): 0.0177873524999
+Loop 25 post-Bcast (1): 4.75412500691e-05
+Loop 25 sb1 0 pre-agg (2): 0.0169407712499
+Loop 25 sb1 0 __aggregate (2): 1.08942865
+Loop 25 sb1 0 __set_curr_gen (3): 0.000262795000026
+Loop 25 sb1 0 __block_update: 3.9580342525
+Loop 25 __block_reduc: 38.434800575
+Loop 25 save end: 0.0484511612499
+Loop 25 save checkpoint: 0.000402022499884
+Loop 25 time = 38.4870977119
+Loop 26
+Loop 26 __set_curr_gen (1): 0.000213316249983
+Loop 26 sb1 0 pre-jloop1: 0.0495303412499
+Loop 26 sb1 0 j 0 __house_vec: 0.00303494125001
+Loop 26 sb1 0 j 0 hv-to-su: 0.000103276875052
+Loop 26 sb1 0 j 0 __seq_update: 0.0529459162499
+Loop 26 sb1 0 j 1 __house_vec: 0.00263956625008
+Loop 26 sb1 0 j 1 hv-to-su: 0.000104940000028
+Loop 26 sb1 0 j 1 __seq_update: 0.05257431625
+Loop 26 sb1 0 j 2 __house_vec: 0.00263351125
+Loop 26 sb1 0 j 2 hv-to-su: 0.000113309999961
+Loop 26 sb1 0 j 2 __seq_update: 0.0525509137499
+Loop 26 sb1 0 j 3 __house_vec: 0.00262678374997
+Loop 26 sb1 0 j 3 hv-to-su: 0.000107727500108
+Loop 26 sb1 0 j 3 __seq_update: 0.0525679049999
+Loop 26 sb1 0 jloop1: 30.9171075563
+Loop 26 sb1 0 jloop1-to-agg1: 4.45074999789e-05
+Loop 26 sb1 0 __aggregate (1): 0.86114085125
+Loop 26 sb1 0 __set_curr_gen (2): 0.000209264999967
+Loop 26 sb1 0 __new_block_update: 1.433420495
+Loop 26 sb1 0 post-nbu: 0.02018983375
+Loop 26 pre-Bcast (1): 0.016120365
+Loop 26 Bcast (1): 0.01777264625
+Loop 26 post-Bcast (1): 4.90912500481e-05
+Loop 26 sb1 0 pre-agg (2): 0.0169375087501
+Loop 26 sb1 0 __aggregate (2): 1.08625433875
+Loop 26 sb1 0 __set_curr_gen (3): 0.000264002499989
+Loop 26 sb1 0 __block_update: 3.96765466125
+Loop 26 __block_reduc: 38.39512767
+Loop 26 save end: 0.0452059362499
+Loop 26 save checkpoint: 0.000418988749971
+Loop 26 time = 38.44390596
+Loop 27
+Loop 27 __set_curr_gen (1): 0.00021538750002
+Loop 27 sb1 0 pre-jloop1: 0.0493398925
+Loop 27 sb1 0 j 0 __house_vec: 0.00303704375006
+Loop 27 sb1 0 j 0 hv-to-su: 0.000105668749939
+Loop 27 sb1 0 j 0 __seq_update: 0.0529763525001
+Loop 27 sb1 0 j 1 __house_vec: 0.00264005625013
+Loop 27 sb1 0 j 1 hv-to-su: 0.000108753750055
+Loop 27 sb1 0 j 1 __seq_update: 0.052610125
+Loop 27 sb1 0 j 2 __house_vec: 0.00263241750008
+Loop 27 sb1 0 j 2 hv-to-su: 0.000115198750109
+Loop 27 sb1 0 j 2 __seq_update: 0.05245703125
+Loop 27 sb1 0 j 3 __house_vec: 0.00263954499997
+Loop 27 sb1 0 j 3 hv-to-su: 0.000109537500066
+Loop 27 sb1 0 j 3 __seq_update: 0.0525920787502
+Loop 27 sb1 0 jloop1: 30.99010566
+Loop 27 sb1 0 jloop1-to-agg1: 4.81800000216e-05
+Loop 27 sb1 0 __aggregate (1): 0.86121427375
+Loop 27 sb1 0 __set_curr_gen (2): 0.000209542499988
+Loop 27 sb1 0 __new_block_update: 1.43450762375
+Loop 27 sb1 0 post-nbu: 0.02028338375
+Loop 27 pre-Bcast (1): 0.01602949875
+Loop 27 Bcast (1): 0.0177410649999
+Loop 27 post-Bcast (1): 5.22049999745e-05
+Loop 27 sb1 0 pre-agg (2): 0.0170128675002
+Loop 27 sb1 0 __aggregate (2): 1.08700824875
+Loop 27 sb1 0 __set_curr_gen (3): 0.000259839999899
+Loop 27 sb1 0 __block_update: 3.9237924775
+Loop 27 __block_reduc: 38.4264369837
+Loop 27 save end: 0.048025166875
+Loop 27 save checkpoint: 0.000406070000054
+Loop 27 time = 38.4780203525
+Loop 28
+Loop 28 __set_curr_gen (1): 0.0002149500001
+Loop 28 sb1 0 pre-jloop1: 0.0495537300001
+Loop 28 sb1 0 j 0 __house_vec: 0.00303925875005
+Loop 28 sb1 0 j 0 hv-to-su: 0.000102962500023
+Loop 28 sb1 0 j 0 __seq_update: 0.0531388575
+Loop 28 sb1 0 j 1 __house_vec: 0.00263314624999
+Loop 28 sb1 0 j 1 hv-to-su: 0.000106148750092
+Loop 28 sb1 0 j 1 __seq_update: 0.0526130800001
+Loop 28 sb1 0 j 2 __house_vec: 0.00262889999999
+Loop 28 sb1 0 j 2 hv-to-su: 0.000111612500177
+Loop 28 sb1 0 j 2 __seq_update: 0.05255042875
+Loop 28 sb1 0 j 3 __house_vec: 0.00262449625006
+Loop 28 sb1 0 j 3 hv-to-su: 0.000105948749933
+Loop 28 sb1 0 j 3 __seq_update: 0.0525162162501
+Loop 28 sb1 0 jloop1: 31.0321283212
+Loop 28 sb1 0 jloop1-to-agg1: 4.48475000212e-05
+Loop 28 sb1 0 __aggregate (1): 0.86107217375
+Loop 28 sb1 0 __set_curr_gen (2): 0.000208618749866
+Loop 28 sb1 0 __new_block_update: 1.43466927
+Loop 28 sb1 0 post-nbu: 0.02023152125
+Loop 28 pre-Bcast (1): 0.0160417762499
+Loop 28 Bcast (1): 0.017640665
+Loop 28 post-Bcast (1): 4.89325000217e-05
+Loop 28 sb1 0 pre-agg (2): 0.0169681462501
+Loop 28 sb1 0 __aggregate (2): 1.087608325
+Loop 28 sb1 0 __set_curr_gen (3): 0.000264267499915
+Loop 28 sb1 0 __block_update: 3.9131818325
+Loop 28 __block_reduc: 38.45824364
+Loop 28 save end: 0.0478960800001
+Loop 28 save checkpoint: 0.000403866250053
+Loop 28 time = 38.50964613
+Loop 29
+Loop 29 __set_curr_gen (1): 0.000216294999973
+Loop 29 sb1 0 pre-jloop1: 0.0494490725
+Loop 29 sb1 0 j 0 __house_vec: 0.00304439000001
+Loop 29 sb1 0 j 0 hv-to-su: 0.00010369125016
+Loop 29 sb1 0 j 0 __seq_update: 0.0528724650001
+Loop 29 sb1 0 j 1 __house_vec: 0.00264469750005
+Loop 29 sb1 0 j 1 hv-to-su: 0.000112646250045
+Loop 29 sb1 0 j 1 __seq_update: 0.0525857600001
+Loop 29 sb1 0 j 2 __house_vec: 0.00264061124994
+Loop 29 sb1 0 j 2 hv-to-su: 0.000115477499776
+Loop 29 sb1 0 j 2 __seq_update: 0.05248627375
+Loop 29 sb1 0 j 3 __house_vec: 0.00263426999982
+Loop 29 sb1 0 j 3 hv-to-su: 0.000109275000113
+Loop 29 sb1 0 j 3 __seq_update: 0.0525288399999
+Loop 29 sb1 0 jloop1: 30.92244357
+Loop 29 sb1 0 jloop1-to-agg1: 4.85599998683e-05
+Loop 29 sb1 0 __aggregate (1): 0.8619270075
+Loop 29 sb1 0 __set_curr_gen (2): 0.00021041250011
+Loop 29 sb1 0 __new_block_update: 1.43469617
+Loop 29 sb1 0 post-nbu: 0.0200623762501
+Loop 29 pre-Bcast (1): 0.0160559650001
+Loop 29 Bcast (1): 0.0175234649998
+Loop 29 post-Bcast (1): 4.81437500639e-05
+Loop 29 sb1 0 pre-agg (2): 0.0170216525
+Loop 29 sb1 0 __aggregate (2): 1.08656229125
+Loop 29 sb1 0 __set_curr_gen (3): 0.000260639999851
+Loop 29 sb1 0 __block_update: 3.79016659375
+Loop 29 __block_reduc: 38.2248830463
+Loop 29 save end: 0.0480942975
+Loop 29 save checkpoint: 0.000405097500106
+Loop 29 time = 38.2766870988
+Loop 30
+Loop 30 __set_curr_gen (1): 0.00021530375011
+Loop 30 sb1 0 pre-jloop1: 0.0494630850001
+Loop 30 sb1 0 j 0 __house_vec: 0.0030318337499
+Loop 30 sb1 0 j 0 hv-to-su: 0.000104031249975
+Loop 30 sb1 0 j 0 __seq_update: 0.0529646887499
+Loop 30 sb1 0 j 1 __house_vec: 0.00263870749995
+Loop 30 sb1 0 j 1 hv-to-su: 0.000105905000055
+Loop 30 sb1 0 j 1 __seq_update: 0.0527747062501
+Loop 30 sb1 0 j 2 __house_vec: 0.00262935000001
+Loop 30 sb1 0 j 2 hv-to-su: 0.000115195000035
+Loop 30 sb1 0 j 2 __seq_update: 0.0526844737499
+Loop 30 sb1 0 j 3 __house_vec: 0.00262961375006
+Loop 30 sb1 0 j 3 hv-to-su: 0.000105702499923
+Loop 30 sb1 0 j 3 __seq_update: 0.05262449625
+Loop 30 sb1 0 jloop1: 30.9542004175
+Loop 30 sb1 0 jloop1-to-agg1: 4.54087501112e-05
+Loop 30 sb1 0 __aggregate (1): 0.8620105425
+Loop 30 sb1 0 __set_curr_gen (2): 0.000209736249872
+Loop 30 sb1 0 __new_block_update: 1.43528270625
+Loop 30 sb1 0 post-nbu: 0.0204592274999
+Loop 30 pre-Bcast (1): 0.01600535375
+Loop 30 Bcast (1): 0.0178188787502
+Loop 30 post-Bcast (1): 4.96937500429e-05
+Loop 30 sb1 0 pre-agg (2): 0.01703378875
+Loop 30 sb1 0 __aggregate (2): 1.087158095
+Loop 30 sb1 0 __set_curr_gen (3): 0.000259095000047
+Loop 30 sb1 0 __block_update: 3.76042151
+Loop 30 __block_reduc: 38.2288435475
+Loop 30 save end: 0.0452069275
+Loop 30 save checkpoint: 0.000403671249842
+Loop 30 time = 38.27756887
+Loop 31
+Loop 31 __set_curr_gen (1): 0.000213849374859
+Loop 31 sb1 0 pre-jloop1: 0.0496000662502
+Loop 31 sb1 0 j 0 __house_vec: 0.00303551749994
+Loop 31 sb1 0 j 0 hv-to-su: 0.00010457375015
+Loop 31 sb1 0 j 0 __seq_update: 0.05293205
+Loop 31 sb1 0 j 1 __house_vec: 0.00264194624992
+Loop 31 sb1 0 j 1 hv-to-su: 0.000108173749823
+Loop 31 sb1 0 j 1 __seq_update: 0.0526765674999
+Loop 31 sb1 0 j 2 __house_vec: 0.00264236625003
+Loop 31 sb1 0 j 2 hv-to-su: 0.000115208750003
+Loop 31 sb1 0 j 2 __seq_update: 0.0525922099998
+Loop 31 sb1 0 j 3 __house_vec: 0.00264085999993
+Loop 31 sb1 0 j 3 hv-to-su: 0.000106047499912
+Loop 31 sb1 0 j 3 __seq_update: 0.0525724500001
+Loop 31 sb1 0 jloop1: 30.9151228875
+Loop 31 sb1 0 jloop1-to-agg1: 4.53874999948e-05
+Loop 31 sb1 0 __aggregate (1): 0.86306461875
+Loop 31 sb1 0 __set_curr_gen (2): 0.000209408749924
+Loop 31 sb1 0 __new_block_update: 1.43478134625
+Loop 31 sb1 0 post-nbu: 0.02006027125
+Loop 31 pre-Bcast (1): 0.0160840075
+Loop 31 Bcast (1): 0.0178881562499
+Loop 31 post-Bcast (1): 4.78125000427e-05
+Loop 31 sb1 0 pre-agg (2): 0.0169870437501
+Loop 31 sb1 0 __aggregate (2): 1.08885748125
+Loop 31 sb1 0 __set_curr_gen (3): 0.00025952624992
+Loop 31 sb1 0 __block_update: 0.000300787500009
+Loop 31 __block_reduc: 34.4318621237
+Loop 31 save end: 0.0484736925
+Loop 31 save checkpoint: 0.000354623749899
+Loop 31 time = 34.483778635

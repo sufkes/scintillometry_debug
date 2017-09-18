@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/scratch/a/aparamek/sufkes/scintillometry_copy/toeplitz_decomp/run_real_new.py", line 39, in <module>
+    c.fact(method, p)
+  File "/ess01/scratch2/a/aparamek/sufkes/scintillometry_copy/toeplitz_decomp/new_factorize_parallel.py", line 114, in fact
+    self.__setup_gen()
+  File "/ess01/scratch2/a/aparamek/sufkes/scintillometry_copy/toeplitz_decomp/new_factorize_parallel.py", line 208, in __setup_gen
+    cinv = inv(c)
+  File "/scratch/s/scinet/nolta/venv-numpy-scipy/lib/python2.7/site-packages/numpy-1.13.1-py2.7-linux-ppc64.egg/numpy/linalg/linalg.py", line 513, in inv
+    ainv = _umath_linalg.inv(a, signature=signature, extobj=extobj)
+  File "/scratch/s/scinet/nolta/venv-numpy-scipy/lib/python2.7/site-packages/numpy-1.13.1-py2.7-linux-ppc64.egg/numpy/linalg/linalg.py", line 90, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.linalg.LinAlgError: Singular matrix

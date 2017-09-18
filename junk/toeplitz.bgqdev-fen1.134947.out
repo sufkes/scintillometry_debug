@@ -1,0 +1,8 @@
+----------------------
+STARTING in directory /scratch/a/aparamek/sufkes/scintillometry_copy/toeplitz_decomp
+Tue Aug 29 09:16:14 EDT 2017
+n 512, m 512, bg 64, np 1024, rpn 16, omp 4
+
+ZGESV : 2538-2146
+The input matrix (ARG NO. 3) is singular.  The first diagonal element found to
+be exactly zero was in column (3).
